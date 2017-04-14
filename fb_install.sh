@@ -23,18 +23,22 @@ echo
 echo "Setup files . . ."
 touch ./wordpress/.htaccess
 chmod 660 ./wordpress/.htaccess
-cp ./wordpress/wp-config-sample.php ./wordpress/wp-config.php
+#cp ./wordpress/wp-config-sample.php ./wordpress/wp-config.php
 mkdir ./wordpress/wp-content/upgrade
 echo
 echo "Downloading plugins . . ."
 echo
-curl -O https://downloads.wordpress.org/plugin/booking-system.latest-stable.zip
+curl -O https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip
+curl -O https://downloads.wordpress.org/plugin/woocommerce-easy-booking-system.latest-stable.zip
 echo
 echo "Uncompressing"
 echo
-unzip booking-system.latest-stable.zip
-cp -avr booking-system ./wordpress/wp-content/plugins/booking-system
-rm -rf booking-system
+unzip woocommerce.latest-stable.zip
+unzip woocommerce-easy-booking-system.latest-stable.zip
+cp -avr woocommerce ./wordpress/wp-content/plugins/woocommerce
+cp -avr woocommerce-easy-booking-system ./wordpress/wp-content/plugins/woocommerce-easy-booking-system
+rm -rf woocommerce
+rm -rf woocommerce-easy-booking-system
 
 }
 

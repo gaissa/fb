@@ -1,0 +1,36 @@
+.wceb-reports {
+	margin-top: 1em;
+}
+
+.reports-filter {
+	float: left;
+	margin-right: 1%;
+	
+	max-width: 200px;
+}
+
+.filter-id {
+	width: 50%;
+}
+
+.filter-date {
+	width: 20%;
+}
+
+.reports-filter input {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.reports-filter-submit {
+	float: left;
+	width: 7%;
+}
+
+.column-start_date .datepicker, .column-end_date .datepicker {
+	background: none;
+	border: none;
+	color: #555555;
+	box-shadow: none;
+	cursor: default !important;
+}
