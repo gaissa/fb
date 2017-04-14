@@ -30,15 +30,23 @@ echo "Downloading plugins . . ."
 echo
 curl -O https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip
 curl -O https://downloads.wordpress.org/plugin/woocommerce-easy-booking-system.latest-stable.zip
+curl -O https://downloads.wordpress.org/plugin/capability-manager-enhanced.latest-stable.zip
+curl -O https://downloads.wordpress.org/plugin/manageview-your-posts-only.latest-stable.zip
 echo
 echo "Uncompressing"
 echo
 unzip woocommerce.latest-stable.zip
 unzip woocommerce-easy-booking-system.latest-stable.zip
+unzip capability-manager-enhanced.latest-stable.zip
+unzip manageview-your-posts-only.latest-stable.zip
 cp -avr woocommerce ./wordpress/wp-content/plugins/woocommerce
 cp -avr woocommerce-easy-booking-system ./wordpress/wp-content/plugins/woocommerce-easy-booking-system
+cp -avr capability-manager-enhanced ./wordpress/wp-content/plugins/capability-manager-enhanced
+cp -avr manageview-your-posts-only ./wordpress/wp-content/plugins/manageview-your-posts-only
 rm -rf woocommerce
 rm -rf woocommerce-easy-booking-system
+rm -rf capability-manager-enhanced
+rm -rf manageview-your-posts-only
 
 }
 
