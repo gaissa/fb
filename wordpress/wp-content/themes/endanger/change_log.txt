@@ -1,0 +1,11 @@
+Version 1.0.0
+i) Intial version Release
+
+Version 1.1.0
+i) Theme Updated as per new guideline.
+
+Version 1.2.0
+i) Theme Updated as per new guideline.
+
+Version 1.3.0
+i) Added attribution to underscores
