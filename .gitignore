@@ -15,6 +15,7 @@ wordpress/wp-content/upgrade/
 wordpress/wp-content/uploads/
 wordpress/wp-content/wp-cache-config.php
 
+wordpress/wp-content/*.php
 wordpress/wp-content/themes/
 wordpress/wp-content/plugins/*.php
 
