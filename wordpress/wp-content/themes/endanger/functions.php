@@ -211,22 +211,4 @@ function endanger_the_custom_logo() {
 }
 endif;
 
-
 add_action( 'woocommerce_order_status_completed', 'edit_quantity' );
-function edit_quantity( $order_id ) {
-
-    // Only continue if have $order_id
-    if ( ! $order_id ) {
-        return;
-    }
-
-    // Get order
-    $order = wc_get_order( $order_id );
-    $items = $order->get_items();
-    
-    foreach ( $items as $item ) {
-        $product_id = $item['product_id'];
-        wc_get_product($product_id)->set_stock_quantity(1);
-    }
-    #die(); ##DEBUG WITH FORCE
-}
