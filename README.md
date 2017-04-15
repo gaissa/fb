@@ -1,8 +1,14 @@
 FB
 ==
 
-1. Install and setup your database and such
-2. Run `./install.sh`
-2. Navigate to your WordPress installation URL
-3. Setup `wp-config.php` manually if needed
-4. Activate plugins
+1. Get your server up and running
+2. Install and setup your database for WordPress
+3. Download or clone this repository
+4. Run `./install.sh`
+5. Navigate to your WordPress installation URL
+6. Setup `wp-config.php` manually if needed
+7. Activate plugins and themes
+8. Do the actual work and setup your site
+
+TODO
+x. Import the settings
