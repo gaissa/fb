@@ -11,4 +11,4 @@ FB
 8. Do the actual work and setup your site
 
 TODO
-x. Import the settings
+- Import the settings

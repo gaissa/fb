@@ -1,5 +1,11 @@
+wordpress/*.php
 wordpress/*.log
-wordpress/wp-config.php
+wordpress/.htaccess
+wordpress/license.txt
+wordpress/readme.html
+wordpress/sitemap.xml
+wordpress/sitemap.xml.gz
+
 wordpress/wp-content/advanced-cache.php
 wordpress/wp-content/backup-db/
 wordpress/wp-content/backups/
@@ -8,19 +14,14 @@ wordpress/wp-content/cache/
 wordpress/wp-content/upgrade/
 wordpress/wp-content/uploads/
 wordpress/wp-content/wp-cache-config.php
-wordpress/wp-content/plugins/hello.php
-wordpress/*.php
+
+wordpress/wp-content/themes/
+wordpress/wp-content/plugins/*.php
+
 wordpress/wp-includes/
 wordpress/wp-admin/
-wordpress/.htaccess
-wordpress/license.txt
-wordpress/readme.html
-wordpress/sitemap.xml
-wordpress/sitemap.xml.gz
 
 dev/
 old/
 *.zip
 *.gz
-
-wordpress/wp-content/themes/
