@@ -10,7 +10,7 @@ wordpress/wp-content/uploads/
 wordpress/wp-content/wp-cache-config.php
 wordpress/wp-content/plugins/hello.php
 wordpress/*.php
-wordpress/wp-icludes/
+wordpress/wp-includes/
 wordpress/wp-admin/
 wordpress/.htaccess
 wordpress/license.txt
